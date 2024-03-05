@@ -26,7 +26,7 @@ export const GET = async (
     return new NextResponse(JSON.stringify(product), {
       status: 200,
       headers: {
-        "Access-Control-Allow-Origin": "http://localhost:3001",
+        "Access-Control-Allow-Origin": "https://borcella-store.vercel.app",
         "Access-Control-Allow-Methods": "GET",
         "Access-Control-Allow-Headers": "Content-Type",
       },
